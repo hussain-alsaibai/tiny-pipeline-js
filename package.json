@@ -1,0 +1,37 @@
+{
+  "name": "tiny-pipeline",
+  "version": "0.1.0",
+  "description": "Async stream pipeline builder for AI agent data transformation workflows",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./pipeline": "./pipeline.js",
+    "./stages": "./stages.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [
+    "pipeline",
+    "stream",
+    "async",
+    "data-transformation",
+    "ai-agent",
+    "fluent-api",
+    "functional"
+  ],
+  "author": "hussain-alsaibai",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "index.js",
+    "pipeline.js",
+    "stages.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

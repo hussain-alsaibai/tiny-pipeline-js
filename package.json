@@ -1,5 +1,5 @@
 {
-  "name": "tiny-pipeline",
+  "name": "tiny-pipeline-js",
   "version": "0.1.0",
   "description": "Async stream pipeline builder for AI agent data transformation workflows",
   "type": "module",
@@ -33,5 +33,9 @@
     "stages.js"
   ],
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hussain-alsaibai/tiny-pipeline-js.git"
+  }
 }
